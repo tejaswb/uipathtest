@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:isactr="http://schemas.uipath.com/workflow/integration-service-activities/isactr" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uiascb="clr-namespace:UiPath.IntegrationService.Activities.SWEntities.C27BB7EF37C_categorize_Create.Bundle;assembly=C27BB7EF37C_categori.Hc98KyNPpK1XLalC31XFyD1" xmlns:uiascb1="clr-namespace:UiPath.IntegrationService.Activities.SWEntities.C27BB7EF37C_v2_sub_generateChatCompletion_Create.Bundle;assembly=C27BB7EF37C_v2_sub_g.fnVbW1Kb4VL1v9wIUNgD6a" xmlns:uiascb2="clr-namespace:UiPath.IntegrationService.Activities.SWEntities.C27BB7EF37C_piiminus_signdetection_Create.Bundle;assembly=C27BB7EF37C_piiminus.3G4bI2joKZF1FNwiF4mmphj" xmlns:uiascb3="clr-namespace:UiPath.IntegrationService.Activities.SWEntities.C27BB7EF37C_v1_sub_sentimentminus_signanalysis_Create.Bundle;assembly=C27BB7EF37C_v1_sub_s.dZFgR3UQRpQ1o8D5y2PTKdT" xmlns:uiascb4="clr-namespace:UiPath.IntegrationService.Activities.SWEntities.C27BB7EF37C_ecs_sub_search_Create.Bundle;assembly=C27BB7EF37C_ecs_sub_.nVibc2oAINH1C15Yv2fp3812" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:isactr="http://schemas.uipath.com/workflow/integration-service-activities/isactr" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uiascb="clr-namespace:UiPath.IntegrationService.Activities.SWEntities.C27BB7EF37C_categorize_Create.Bundle;assembly=C27BB7EF37C_categori.Hc98KyNPpK1XLalC31XFyD1" xmlns:uiascb1="clr-namespace:UiPath.IntegrationService.Activities.SWEntities.C27BB7EF37C_v2_sub_generateChatCompletion_Create.Bundle;assembly=C27BB7EF37C_v2_sub_g.fnVbW1Kb4VL1v9wIUNgD6a" xmlns:uiascb2="clr-namespace:UiPath.IntegrationService.Activities.SWEntities.C27BB7EF37C_piiminus_signdetection_Create.Bundle;assembly=C27BB7EF37C_piiminus.3G4bI2joKZF1FNwiF4mmphj" xmlns:uiascb3="clr-namespace:UiPath.IntegrationService.Activities.SWEntities.C27BB7EF37C_v1_sub_sentimentminus_signanalysis_Create.Bundle;assembly=C27BB7EF37C_v1_sub_s.dZFgR3UQRpQ1o8D5y2PTKdT" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -98,7 +98,7 @@
       <AssemblyReference>C27BB7EF37C_ecs_sub_.nVibc2oAINH1C15Yv2fp3812</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="892,1287" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="892,607" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="output" />
       <Variable x:TypeArguments="uiascb2:piiminus_signdetection_Create" Name="TextAnalysisObj" />
@@ -153,7 +153,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </isactr:ConnectorActivity>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="486,487" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="486,447" sap2010:WorkflowViewState.IdRef="CommentOut_1">
       <ui:CommentOut.Body>
         <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,336" sap2010:WorkflowViewState.IdRef="Sequence_2">
           <sap:WorkflowViewStateService.ViewState>
@@ -422,61 +422,6 @@ If you haven’t explored it yet, this is your moment.
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <isactr:ConnectorActivity Configuration="H4sIAAAAAAAACt1YbU/bSBD+Kyt/PCUuCaVUkdCJpKXkjpKUANXphNDGnpBtnF13X4Bcyn+/2RcbJ05SWl2/nJAg9s7OzvPMszMTltEJgyxVPcE1ZRxk1FlGI6AymdJxBn4x6vx904j6PDe6fLGMzukcok701YBcxO531IjeMZVndBHW3Bai4VHbJVCJZLlmguPSJb4kRkFKtCBuN9FTIIyn8EiEJBOWAaE8JRK0kZwoNmcZlSTBQL2/y0Vuz1BaMn6HzyMh9UCmFkLLncbu8KBlNBSKhUOHks0pxvnUiC7gq2ES0qijpYGGp+FMJDSYdkVq7UqYE5Gh6z+hDnKAXAFGQTWGfeLMyJDqaQ3yiqH35+Ag74igAh8ZUS4F5IE5PzugthvRmRAzk1uog/EXSPRKxCoqDK5pZux7j8FF2IlerVvZzTa/0YnJssUnQzM2YZA6nzdPVV7PBE27i3cwoSbTBY2byXbkHid2IYjpe/R/Cnrqq4+gpyIdUokRaIvYbqgkRiGpcxpz+1TXn6WzWFrV3wa2J5iXNZ2RiRTz3RnY35oB5x/qGQgBFSkIZr+XEjtalh+f6onhL0zFGunLyH8OSEZT8YC+L0zmvC4xIxO3Y4Pe+6qXIUM2WxOaKfTdV5+FnE0y8fD+MZeglCM1LBaeHFwX8m8YL0a8FsIpS+EnQvDodkSAR928UIlrEbkzfhErA174uspTqqEA8lK2/vcJ+9GK7BsPN/MxyMHkAhRqX9VKwLlbJ2KCjaS0qFUCLTTNCF+3Dc0Hm9TYt6eizQVCGNaIO6wBK/XgNYYu5Jxqb/DmtTvRXc1QAPbjvS0NagRYd9KqVtcJsELqUX5PVa0SekL0FIOfYiZqVLiaSlbWa0TMsRfNzRyBZ3BPeQJEJUKCL42+Sj7zGFjwtK2ScFAhIRUGR4kaC3vx4cGvoOGxaViOpbXJVFNp3JU0NaLB7iEXzdz2kSZFVd8z7YlZp+k4LBL77ICX22uU7bbdNaHsVQgqDVYJinqhB32QwvDUzgh+MovqpFxxZfIc/eP9eUnXrJIkDddsDuss1e/ShTckl4UhzjmF4QotOwx3cdJ6AScSqwQOUd+82FMYm7sGKjLHeg7fxiiN2N3lSzEDrhqF9RQoHhGXqL+IcZOl/zGPW8QWJokyiTVan1myAqolvcZuXRY/Irx2jVIL6aepwMI9MHrjN4M/mL6FRHU6vnDUcI+q9YQINznVwD6juWJ2YIr7tubiDI3LI5D3LIE43EIGKh59fo/Scx977cNu9/D9yf5hz4Zxq8z41kdy25OAHTjuIn0ZxBsXG2TT/phfs3HSFsf989NWr3Xw1317ku+/RVLJNU7RGNNRK96zP7gfURkJRxwMzvxZgwyxDLIE26MT5xHHAdt2Uy/RSjP2Yt7WBj3btQJoM4SEO+v6jOyQ+Ra5Ow0bm4IwOhF4nbEx2iYY+oC/gRvU9j1ExXPPYBq39/stQO1cgoM9XjbsTqUacXEZhRTgXpcE3IpXhaOqhBtKOlG4q+EPZTKdoVFRxIshMITVWB3mV5V8qnXuL4SdLwWixah6FL+LpJVZ30ZVvu9K8aBA9jXMw/swl2Js4VvRkCYzegdVHK2DVSAhGn8ZyAfgx33yrP+qZdXLwdv4TQloNf07mswO/IMc/B20HtyFqZEyGF1WvuTg9lfl7jPK7wwCtW45Pn+kj0N8HLF/8FV7D3vjKVVddDvDeHpTtLZUBjnZ/xx0M5HMHGlP/wJrrqghwhAAAA==" ConnectionId="d35b1914-c2dc-43ab-a4df-3a27bb7ef37c" DisplayName="Context Grounding Search" sap:VirtualizedContainerService.HintSize="486,268" sap2010:WorkflowViewState.IdRef="ConnectorActivity_9" UiPathActivityTypeId="e4611d60-2676-358e-bdf7-37a0168d3869">
-      <isactr:ConnectorActivity.FieldObjects>
-        <isactr:FieldObject Name="query_sub_query" Type="FieldArgument">
-          <isactr:FieldObject.Value>
-            <InArgument x:TypeArguments="x:String" />
-          </isactr:FieldObject.Value>
-        </isactr:FieldObject>
-        <isactr:FieldObject Name="folderKey" Type="FieldArgument" />
-        <isactr:FieldObject Name="schema_sub_name" Type="FieldArgument" />
-        <isactr:FieldObject Name="query_sub_numberOfResults" Type="FieldArgument">
-          <isactr:FieldObject.Value>
-            <InArgument x:TypeArguments="x:Int64">3</InArgument>
-          </isactr:FieldObject.Value>
-        </isactr:FieldObject>
-        <isactr:FieldObject Name="query_sub_threshold" Type="FieldArgument">
-          <isactr:FieldObject.Value>
-            <InArgument x:TypeArguments="x:Double">0.75</InArgument>
-          </isactr:FieldObject.Value>
-        </isactr:FieldObject>
-        <isactr:FieldObject Name="Jit_ecs_sub_search" Type="FieldArgument">
-          <isactr:FieldObject.Value>
-            <OutArgument x:TypeArguments="uiascb4:ecs_sub_search_Create" />
-          </isactr:FieldObject.Value>
-        </isactr:FieldObject>
-        <isactr:FieldObject Name="out_searchResult" Type="FieldArgument">
-          <isactr:FieldObject.Value>
-            <OutArgument x:TypeArguments="x:String" />
-          </isactr:FieldObject.Value>
-        </isactr:FieldObject>
-      </isactr:ConnectorActivity.FieldObjects>
-    </isactr:ConnectorActivity>
-    <isactr:ConnectorActivity Configuration="H4sIAAAAAAAACu1YYW/bNhD9K4Q+y5mdJd1gDANqp12MJbMXu82HIhho6SxzpkiNpOKohv/7jhRlS7bjpNuQrkAAA7J4x9Pd49PjiavgPQMe674UhjIBKuiugjFQFc3plENpDLqf7sJgILLcbAZWwW80haAbzBiHIAwumM44Lfzgez8IOlIsM0wKHBykNAFi/YmRZAok1xCTmVTEzIFEMs04WFei4K8ctMEAkyKrPWMslRmq2Cb5vQvOEoy7Kkt4G9m5ZWrlfz95PJdLnHyTcyitNzBzM3yuzKb1h7HOWKTuc6we4qA7o1yDHbmVajHjcvnuIVOgtSvGG6tQHynPXfSy8rv13TrcSeOSxfBP0jAq//IsRvmUs4h8uLk6mMsNAsxs9K8Py9Cxg/KvBQ0SeyQ18xQdKXyWKoJ1+EqqV1L9G1I5hysZUc+s65wbllFlVW2gr8HMZTyiCglurJ5ZKtt3wzM+lTFw939XWa+thQhvaujrBFXUGggq6uCCyJnTVRfKDsWQcVmkIIyVX9TerfTOqUH93eqtNoqJpKm4Z2HwTuRpXfqTzLTOZOu0fXrW6nTwijMcJgdttfISSJlgrdOTditTstVud+oz940W0K3cH35fN5rmZWF3AX7PAR2fAz5OgUQqhku7i36/YWqg3zB5HOX0T4hME8dzTE2qlBq0x8xJIVbwUwl5WF5+dtFnFDnjUVmtn0AgDPq4gUqBy4ujF5vAroTq5pbFCaB9FdwyEcvlhBmU5Z3cS1OzuJGS97h/kQY0fcnzVPwKxU6Yom5rxrEwVsSMDnhfMpf+UTeHSPXIeviGQ/O5tbvjcX0Cx/zXzyBbT8aWlBtKxY00m5xqlvBk3gm7B0Hclnj8hX1TZ8yVpHGv8Jyqsj6y8e3WEgZD0afinuq916WxOzdLKzu+yrQnVtZgy3IRrChpEDGhXIqELJmZE0pSlF5rZJUXxV6h0EwT/AmA2DUxR1D4oSZblcK4ZsRWUA3U5Pu/kBqP2EDXGlOUG/dqHgQvV3wPu1pOh7DLnJkXhEaR3Z6wWbe+FUsehdQaUfsVQW1NM3McvE77/9pmP9Hgvmiz/Whv+/Jt9hOwvHizvYHmm2izX0n1zZHqqY13WkpxU1qrwT1RLfs14u27wrhVwoFGgYlBfNlG+pxPACxpmJuDBy0GHsxeKROZkQTw3Aa7k5hULnuF7eydtbMWP+XxWg90Dn4LtEc021XS2HxqqBCp7vu5y+yxnbKstcQDj5+qWc6tQgSfNhDaUBHBBi0EBndvvJZhOiftE/vxgadYAhdQKmwlcThHtM285S+UqXiBTpa898wUvuQqQwTerX71EcAp8nDGfKphcGlMVq6ZXWWJtWNifRrNAQuSizyrCLrajPeUXOJWOzCQ+nHPDkzPH6qNaLTApamX0jlv1uIT+sBGWAX5BcTbAfE1VH2496xHOf/x5M2mpkNdWX+3wOPlDzPLMf+powAh28NkOJ7gmM0S777bi3BFRZLbrrUb4JsTBtf0YYS3Y/YZh07b2GpcUt3D0AukYH+O3hZNz68J0rTHZbRwuK3/Bvh9SLC3FAAA" ConnectionId="d35b1914-c2dc-43ab-a4df-3a27bb7ef37c" DisplayName="Image Classification" sap:VirtualizedContainerService.HintSize="486,372" sap2010:WorkflowViewState.IdRef="ConnectorActivity_10" UiPathActivityTypeId="705ba28e-14ae-33f1-aef3-b37cfbb826d8">
-      <isactr:ConnectorActivity.FieldObjects>
-        <isactr:FieldObject Name="_file" Type="FieldArgument" />
-        <isactr:FieldObject Name="modelName" Type="FieldArgument" />
-        <isactr:FieldObject Name="categories" Type="FieldArgument">
-          <isactr:FieldObject.Value>
-            <InArgument x:TypeArguments="scg:Dictionary(x:String, x:String)">[New System.Collections.Generic.Dictionary(Of String, String) From {}]</InArgument>
-          </isactr:FieldObject.Value>
-        </isactr:FieldObject>
-        <isactr:FieldObject Name="image_type" Type="FieldArgument" />
-        <isactr:FieldObject Name="image_url" Type="FieldArgument" />
-        <isactr:FieldObject Name="out_text" Type="FieldArgument">
-          <isactr:FieldObject.Value>
-            <OutArgument x:TypeArguments="x:String" />
-          </isactr:FieldObject.Value>
-        </isactr:FieldObject>
-        <isactr:FieldObject Name="description" Type="FieldArgument">
-          <isactr:FieldObject.Value>
-            <InArgument x:TypeArguments="x:String" />
-          </isactr:FieldObject.Value>
-        </isactr:FieldObject>
-        <isactr:FieldObject Name="body" Type="FieldArgument" />
-      </isactr:ConnectorActivity.FieldObjects>
-    </isactr:ConnectorActivity>
     <ui:Comment sap:VirtualizedContainerService.HintSize="486,80" sap2010:WorkflowViewState.IdRef="Comment_1" Text="// Write your comments in the Text property" />
   </Sequence>
 </Activity>
